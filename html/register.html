@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="vi">
+    <head>
+        <title>Tên Brand</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/assets/css/base.css">
+        <link rel="stylesheet" href="/assets/css/homepage.css">
+        <link rel="stylesheet" href="/assets/css/product.css">
+        <link rel="stylesheet" href="/assets/css/register.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/assets/js/seachbar.js"></script>
+        <script src="/assets/js/base.js"></script>
+        
+        
+    </head>
+    <Body>
+        <script>addHeader()</script>x
+        <div id="boxcenter">
+            <div id="signinformwrap">
+                <h1>Đăng nhập</h1>
+                <form id="form">
+                    <div class="container">
+                        <label for="uname"><b>Tên đăng nhập</b></label>
+                        <input type="text" placeholder="Tên đăng nhập" name="uname" required>
+                        <label for="psw"><b>Mật khẩu</b></label>
+                        <input type="password" placeholder="Mật khẩu" name="psw" required>
+                        <button type="submit" name="login">Đăng nhập</button>
+                    </div>
+                    <h3>---------HOẶC--------</h3>
+                <a href=""><button type="button">Đăng ký</button></a> 
+                </form>
+                
+            </div>
+        </div>
+        <div id="boxcenter">
+            <div id="signinformwrap">
+                <h1>Đăng ký</h1>
+                <form id="form" onsubmit="return check();">
+                    <div class="container">
+                        <label for="umail"><b>E-mail</b></label>
+                        <input type="text" placeholder="E-mail" name="umail" required>
+                        <label for="hoten"><b>Họ và tên</b></label>
+                        <input type="text" placeholder="Họ và tên" name="hoten" required>
+                        <label for="uadress"><b>Dịa chỉ</b></label>
+                        <input type="text" placeholder="Dịa chỉ" name="uadress" required>
+                        <label for="uname"><b>Tên đăng nhập</b></label>
+                        <input type="text" placeholder="Tên đăng nhập" name="uname" required>
+                        <label for="psw"><b>Mật khẩu</b></label>
+                        <input id="psw" type="password" placeholder="Mật khẩu" name="psw" required>
+                        <label for="psw"><b>Nhập lại mật khẩu</b></label>
+                        <input id="pswrepeat" type="password" placeholder="Mật khẩu" name="psw" required>
+                        <div id="password-match-message"></div>
+                        <script src="/assets/js/signup-signin.js"></script>
+                        <button type="submit" name="login">Đăng ký</button>
+                    </div>
+                        <h3>---------HOẶC--------</h3>
+                        <a href=""><button type="button">Đăng nhập</button></a> 
+                </form>
+            </div>
+        </div>
+</body>
+<footer>
+    <script>addfooter()</script>
+</footer>
+</html>

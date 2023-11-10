@@ -1,0 +1,24 @@
+body {
+    background-image: url('/assets/img/background/cosmetics-product-advertising-stand-exhibition-wooden-podium-green-background-with-leaves-sha.jpg');
+    width: 1920;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  
+#blogcontentblock{
+    width: 60%;
+    background-color: rgba(170, 170, 170,0.5);
+    box-shadow: 50px;
+    padding: 50px;
+    position: relative;
+    left: 22%;
+    margin-top: 5%;
+}
+#blogcontentblock h1{
+    font-size: 50px;
+    text-align: left;
+}
+#blogcontentblock p{
+    font-size: 30px;
+    text-align: left;
+}

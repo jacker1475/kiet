@@ -1,0 +1,110 @@
+body {
+    background-image: url('/assets/img/background/cosmetics-product-advertising-stand-exhibition-wooden-podium-green-background-with-leaves-sha.jpg');
+    width: 1920;
+    background-attachment: fixed;
+    background-size: cover
+  }
+  
+#blogcontentblock{
+    width: 60%;
+    color: white;
+    box-shadow: 50px;
+    padding: 50px;
+    position: relative;
+    left: 22%;
+    margin-top: 5%;
+
+}
+#blogcontentblock h1{
+    font-size: 50px;
+    text-align: left;
+    margin: 10px;
+}
+#blogcontentblock p{
+    font-size: 30px;
+    text-align: left;
+}
+#banner2{
+    color:white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 60%;
+    height: 300px;
+    display: inline-flex;
+    left: 20%;
+    justify-content: center;
+}
+#inbanner2{
+    height: 300px;
+    padding: 0px 0px 0px 50px
+}
+#inbanner2 img{
+    height: 300px
+}
+#txbanner2{
+    padding: 50px 0 0 50px ;
+    text-decoration: none;
+    width: 450px;
+    height: 300px;
+    align-content: center;
+}
+#txbanner2 h1{
+    text-decoration: none;
+}
+#txbanner2 h2{
+    padding:30px 0  30px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#txbanner2 a{
+    padding:0 0 0 250px;
+    text-decoration: none;
+    text-align: right;
+}
+#txbanner2 a:hover{
+    text-decoration: underline;
+}
+#banner3{
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    width: 60%;
+    height: 300px;
+    display: inline-flex;
+    left: 20%;
+    justify-content: center;
+}
+#inbanner3{
+    height: auto;
+    padding: 0px 0px 0px 100px
+}
+#inbanner3 img{
+    height: 300px
+}
+#txbanner3{
+    padding: 50px 0 0 50px ;
+    text-decoration: none;
+    width: 550px;
+    height: 300px;
+    align-content: center;
+}
+#txbanner3 h1{
+    text-decoration: none;
+    text-align: right;
+}
+#txbanner3 h2{
+    padding:30px 0  30px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: right;
+}
+#txbanner3 a{
+    padding:0 0 0 0px;
+    text-decoration: none;
+    text-align: right;
+}
+#txbanner3 a:hover{
+    text-decoration: underline;
+}
