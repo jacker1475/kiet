@@ -1,1 +1,10 @@
-rhryuryetetrty
+1. tải git 
+2. mở vsc rối open folder trỏ tới thư mục nào chứa đồ án
+3.  mở terminal trong mục view 
+4. nhập cd  <đường dẫn tới thư mục chứa đồ án> 
+5. nhập git clone https://github.com/jacker1475/kiet.git
+6. nhập git config --global user.email <email của bn>
+7. nhập git add .
+8.nhập git config -m"nhập tin nhắn bất kì(ko dc để trống)"
+9.nhập git push (dùng để đẩy code lên git)
+(để lấy code về thì dùng git pull)
